@@ -1,0 +1,78 @@
+name_space.pod_name
+
+pending/succeeded/failed -> no resources used
+
+Dashboard
+
+0. Making a View of the newest pods and nodes
+ for pods:
+ 
+CREATE or REPLACE VIEW podss AS
+SELECT m.*                    -- get the row that contains the max value
+FROM pods m                 -- "m" from "max"
+    LEFT JOIN pods b        -- "b" from "bigger"
+            -- match "max" row with "bigger" row by `home`
+        ON m.added_time< b.added_time            -- want "bigger" than "max"
+WHERE b.added_time  IS NULL      -- keep only if there is no bigger than max
+
+ for nodes:
+ 
+CREATE or REPLACE VIEW nodess AS
+SELECT m.*                    -- get the row that contains the max value
+FROM nodes m                 -- "m" from "max"
+    LEFT JOIN nodes b        -- "b" from "bigger"
+            -- match "max" row with "bigger" row by `home`
+        ON m.added_time< b.added_time            -- want "bigger" than "max"
+WHERE b.added_time  IS NULL      -- keep only if there is no bigger than max
+
+
+1. Making a View of Space & Remaining Space:
+
+CREATE or REPLACE VIEW SPACE_CPU AS
+    SELECT
+        "host_ip",
+	   SUM (rr_cpu) AS total_cpu,
+       SUM (rr_memory) AS total_memory
+    FROM
+	   "podss"
+    WHERE phase IN ('Running','Terminating')
+    GROUP BY
+	   "host_ip";
+       
+       
+       
+2. Making a View of All info:
+
+CREATE or REPLACE VIEW eve AS
+    SELECT
+        "host_ip",
+	    total_cpu,
+        total_memory,
+        attachable_disk,
+        cpu,
+        memory,
+        max_pods,
+        hostname,
+        internalip,
+        volumes_attached,
+        voluems_in_use,
+        (attachable_disk - volumes_attached) AS volumes_left,
+        (cpu - total_cpu) AS CPU_left,
+        (memory - total_memory) AS Memory_left
+    FROM
+	    public."space_cpu", public."nodess"
+    WHERE
+        host_ip = internalip;
+        
+3. For the namespace,
+
+
+CREATE or REPLACE VIEW NS_USE AS
+    SELECT
+        "namespace",
+	   SUM (rr_cpu) AS total_cpu,
+       SUM (rr_memory) AS total_memory
+    FROM
+	   "podss"
+    GROUP BY
+	   "namespace";
