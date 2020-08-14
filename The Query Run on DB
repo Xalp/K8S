@@ -4,27 +4,32 @@ pending/succeeded/failed -> no resources used
 
 Dashboard
 
-0. Making a View of the newest pods and nodes
- for pods:
- 
-CREATE or REPLACE VIEW podss AS
-SELECT m.*                    -- get the row that contains the max value
-FROM pods m                 -- "m" from "max"
-    LEFT JOIN pods b        -- "b" from "bigger"
-            -- match "max" row with "bigger" row by `home`
-        ON m.added_time< b.added_time            -- want "bigger" than "max"
-WHERE b.added_time  IS NULL      -- keep only if there is no bigger than max
+name: *****
 
- for nodes:
+sqlachemy link: *************
+
+0. Making a View of the newest pods and nodes
+
+for pods:
+
+CREATE or REPLACE VIEW podss AS
+select  m.*
+from pods m 
+inner JOIN 
+    (SELECT max(added_time) AS max_added_time
+       FROM pods) grouptest
+on m.added_time = grouptest.max_added_time
+
+for nodes:
  
 CREATE or REPLACE VIEW nodess AS
-SELECT m.*                    -- get the row that contains the max value
-FROM nodes m                 -- "m" from "max"
-    LEFT JOIN nodes b        -- "b" from "bigger"
-            -- match "max" row with "bigger" row by `home`
-        ON m.added_time< b.added_time            -- want "bigger" than "max"
-WHERE b.added_time  IS NULL      -- keep only if there is no bigger than max
-
+select  m.*
+from nodes m 
+inner JOIN 
+    (SELECT max(added_time) AS max_added_time
+       FROM nodes) grouptest
+on m.added_time = grouptest.max_added_time
+ 
 
 1. Making a View of Space & Remaining Space:
 
