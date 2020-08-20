@@ -1,0 +1,524 @@
+{
+    "dashboards": [
+        {
+            "__Dashboard__": {
+                "css": "",
+                "dashboard_title": "Weather",
+                "description": null,
+                "json_metadata": "{\"timed_refresh_immune_slices\": [], \"expanded_slices\": {}, \"refresh_frequency\": 300, \"default_filters\": \"{\\\"7\\\": {\\\"__time_range\\\": \\\"No filter\\\"}, \\\"8\\\": {\\\"__time_range\\\": \\\"No filter\\\"}, \\\"10\\\": {\\\"__time_range\\\": \\\"No filter\\\"}, \\\"11\\\": {\\\"__time_range\\\": \\\"No filter\\\"}}\", \"filter_scopes\": {\"7\": {\"station\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}, \"station_name\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}, \"__time_range\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}}, \"8\": {\"station\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}, \"station_name\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}, \"__time_range\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}}, \"10\": {\"station\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}, \"station_name\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}, \"__time_range\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}}, \"11\": {\"station\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}, \"station_name\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}, \"__time_range\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}}}, \"remote_id\": 1}",
+                "position_json": "{\"CHART-0INPJl9O8t\":{\"children\":[],\"id\":\"CHART-0INPJl9O8t\",\"meta\":{\"chartId\":6,\"height\":75,\"sliceName\":\"temperature\",\"width\":9},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-GbBv-t1--D\",\"TAB-MzbQaim9a\",\"ROW-mwYlwvIXc5\"],\"type\":\"CHART\"},\"CHART-2cVLgs7igE\":{\"children\":[],\"id\":\"CHART-2cVLgs7igE\",\"meta\":{\"chartId\":1,\"height\":50,\"sliceName\":\"- untitled\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-GbBv-t1--D\",\"TAB-yEWX7ArJ2\",\"ROW-vgzEkR5axr\"],\"type\":\"CHART\"},\"CHART-4Kh4_IuQe8\":{\"children\":[],\"id\":\"CHART-4Kh4_IuQe8\",\"meta\":{\"chartId\":10,\"height\":50,\"sliceName\":\"wind_filter\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-GbBv-t1--D\",\"TAB-BoLdAZahHG\",\"ROW-GsSBG4Iub_\"],\"type\":\"CHART\"},\"CHART-7Sh4q_IrJT\":{\"children\":[],\"id\":\"CHART-7Sh4q_IrJT\",\"meta\":{\"chartId\":4,\"height\":80,\"sliceName\":\"Rainfall\",\"width\":9},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-GbBv-t1--D\",\"TAB-pW_FSYmiz\",\"ROW-HGbySUnLeH\"],\"type\":\"CHART\"},\"CHART-Fe03MMbyPy\":{\"children\":[],\"id\":\"CHART-Fe03MMbyPy\",\"meta\":{\"chartId\":8,\"height\":50,\"sliceName\":\"rainfall_filter\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-GbBv-t1--D\",\"TAB-pW_FSYmiz\",\"ROW-HGbySUnLeH\"],\"type\":\"CHART\"},\"CHART-IJu0D7Cp9A\":{\"children\":[],\"id\":\"CHART-IJu0D7Cp9A\",\"meta\":{\"chartId\":3,\"height\":52,\"sliceName\":\"Wind Direction\",\"width\":9},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-GbBv-t1--D\",\"TAB-BoLdAZahHG\",\"ROW-arcLEfaq97\"],\"type\":\"CHART\"},\"CHART-_PSDG1ZlSm\":{\"children\":[],\"id\":\"CHART-_PSDG1ZlSm\",\"meta\":{\"chartId\":5,\"height\":69,\"sliceName\":\"humidity\",\"width\":9},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-GbBv-t1--D\",\"TAB-i-BHJ-iy6A\",\"ROW-2MMx555dFq\"],\"type\":\"CHART\"},\"CHART-nDOgKfacTI\":{\"children\":[],\"id\":\"CHART-nDOgKfacTI\",\"meta\":{\"chartId\":2,\"height\":54,\"sliceName\":\"Wind Speed\",\"width\":9},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-GbBv-t1--D\",\"TAB-BoLdAZahHG\",\"ROW-GsSBG4Iub_\"],\"type\":\"CHART\"},\"CHART-yiRm1ZWTSf\":{\"children\":[],\"id\":\"CHART-yiRm1ZWTSf\",\"meta\":{\"chartId\":11,\"height\":50,\"sliceName\":\"humidity_filter\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-GbBv-t1--D\",\"TAB-i-BHJ-iy6A\",\"ROW-2MMx555dFq\"],\"type\":\"CHART\"},\"CHART-z5VGlmDuB8\":{\"children\":[],\"id\":\"CHART-z5VGlmDuB8\",\"meta\":{\"chartId\":7,\"height\":75,\"sliceName\":\"temperature_filter\",\"width\":3},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-GbBv-t1--D\",\"TAB-MzbQaim9a\",\"ROW-mwYlwvIXc5\"],\"type\":\"CHART\"},\"DASHBOARD_VERSION_KEY\":\"v2\",\"GRID_ID\":{\"children\":[\"TABS-GbBv-t1--D\"],\"id\":\"GRID_ID\",\"parents\":[\"ROOT_ID\"],\"type\":\"GRID\"},\"HEADER_ID\":{\"id\":\"HEADER_ID\",\"meta\":{\"text\":\"Weather\"},\"type\":\"HEADER\"},\"ROOT_ID\":{\"children\":[\"GRID_ID\"],\"id\":\"ROOT_ID\",\"type\":\"ROOT\"},\"ROW-2MMx555dFq\":{\"children\":[\"CHART-_PSDG1ZlSm\",\"CHART-yiRm1ZWTSf\"],\"id\":\"ROW-2MMx555dFq\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-GbBv-t1--D\",\"TAB-i-BHJ-iy6A\"],\"type\":\"ROW\"},\"ROW-GsSBG4Iub_\":{\"children\":[\"CHART-nDOgKfacTI\",\"CHART-4Kh4_IuQe8\"],\"id\":\"ROW-GsSBG4Iub_\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-GbBv-t1--D\",\"TAB-BoLdAZahHG\"],\"type\":\"ROW\"},\"ROW-HGbySUnLeH\":{\"children\":[\"CHART-7Sh4q_IrJT\",\"CHART-Fe03MMbyPy\"],\"id\":\"ROW-HGbySUnLeH\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-GbBv-t1--D\",\"TAB-pW_FSYmiz\"],\"type\":\"ROW\"},\"ROW-arcLEfaq97\":{\"children\":[\"CHART-IJu0D7Cp9A\"],\"id\":\"ROW-arcLEfaq97\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-GbBv-t1--D\",\"TAB-BoLdAZahHG\"],\"type\":\"ROW\"},\"ROW-mwYlwvIXc5\":{\"children\":[\"CHART-0INPJl9O8t\",\"CHART-z5VGlmDuB8\"],\"id\":\"ROW-mwYlwvIXc5\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-GbBv-t1--D\",\"TAB-MzbQaim9a\"],\"type\":\"ROW\"},\"ROW-vgzEkR5axr\":{\"children\":[\"CHART-2cVLgs7igE\"],\"id\":\"ROW-vgzEkR5axr\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-GbBv-t1--D\",\"TAB-yEWX7ArJ2\"],\"type\":\"ROW\"},\"TAB-BoLdAZahHG\":{\"children\":[\"ROW-GsSBG4Iub_\",\"ROW-arcLEfaq97\"],\"id\":\"TAB-BoLdAZahHG\",\"meta\":{\"text\":\"Wind\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-GbBv-t1--D\"],\"type\":\"TAB\"},\"TAB-MzbQaim9a\":{\"children\":[\"ROW-mwYlwvIXc5\"],\"id\":\"TAB-MzbQaim9a\",\"meta\":{\"text\":\"Temperature\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-GbBv-t1--D\"],\"type\":\"TAB\"},\"TAB-i-BHJ-iy6A\":{\"children\":[\"ROW-2MMx555dFq\"],\"id\":\"TAB-i-BHJ-iy6A\",\"meta\":{\"text\":\"Humidity\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-GbBv-t1--D\"],\"type\":\"TAB\"},\"TAB-pW_FSYmiz\":{\"children\":[\"ROW-HGbySUnLeH\"],\"id\":\"TAB-pW_FSYmiz\",\"meta\":{\"text\":\"Rainfall\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-GbBv-t1--D\"],\"type\":\"TAB\"},\"TAB-yEWX7ArJ2\":{\"children\":[\"ROW-vgzEkR5axr\"],\"id\":\"TAB-yEWX7ArJ2\",\"meta\":{\"text\":\"Detail Data\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-GbBv-t1--D\"],\"type\":\"TAB\"},\"TABS-GbBv-t1--D\":{\"children\":[\"TAB-BoLdAZahHG\",\"TAB-MzbQaim9a\",\"TAB-i-BHJ-iy6A\",\"TAB-pW_FSYmiz\",\"TAB-yEWX7ArJ2\"],\"id\":\"TABS-GbBv-t1--D\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"TABS\"}}",
+                "slices": [
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "weather_avg_sg",
+                            "datasource_type": "table",
+                            "id": 1,
+                            "params": "{\"adhoc_filters\": [], \"align_pn\": false, \"all_columns\": [], \"color_pn\": true, \"datasource\": \"1__table\", \"granularity_sqla\": \"window_end\", \"groupby\": [\"wtype\", \"station\", \"avg_value\", \"window_end\", \"window_start\"], \"include_search\": false, \"include_time\": false, \"metrics\": [\"count\"], \"order_by_cols\": [], \"order_desc\": true, \"page_length\": 0, \"percent_metrics\": [], \"row_limit\": 10000, \"table_filter\": false, \"table_timestamp_format\": \"%Y-%m-%d %H:%M:%S\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"timeseries_limit_metric\": null, \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 1, \"datasource_name\": \"weather_avg_sg\", \"schema\": null, \"database_name\": \"WeatherDB\"}",
+                            "slice_name": "- untitled",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "final",
+                            "datasource_type": "table",
+                            "id": 2,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"wind_speed\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_tlid25jjv1_itdhpp6huvm\", \"fromFormData\": true, \"isExtra\": false, \"operator\": \"==\", \"sqlExpression\": null, \"subject\": \"wtype\"}], \"annotation_layers\": [], \"bar_stacked\": false, \"bottom_margin\": \"auto\", \"color_scheme\": \"bnbColors\", \"comparison_type\": \"values\", \"contribution\": false, \"datasource\": \"3__table\", \"granularity_sqla\": \"window_start\", \"groupby\": [\"wtype\", \"station\"], \"label_colors\": {}, \"left_margin\": \"auto\", \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"fromFormData\": true, \"hasCustomLabel\": false, \"label\": \"AVG(avg_value)\", \"optionName\": \"metric_sxrq1lpvrv_hkietiyt5gl\", \"sqlExpression\": \"AVG(avg_value)\"}], \"order_desc\": true, \"reduce_x_ticks\": false, \"resample_method\": null, \"resample_rule\": null, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 10000, \"show_bar_value\": false, \"show_brush\": \"auto\", \"show_controls\": false, \"show_legend\": true, \"slice_id\": 2, \"time_grain_sqla\": \"PT1H\", \"time_range\": \"Last month\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"timeseries_limit_metric\": null, \"url_params\": {}, \"viz_type\": \"bar\", \"x_axis_format\": \"%Y-%m-%d %H:%M:%S\", \"x_axis_label\": \"\", \"x_axis_showminmax\": false, \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_label\": \"\", \"y_axis_showminmax\": false, \"y_log_scale\": false, \"remote_id\": 2, \"datasource_name\": \"final\", \"schema\": null, \"database_name\": \"WeatherDB\"}",
+                            "slice_name": "Wind Speed",
+                            "viz_type": "bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "final",
+                            "datasource_type": "table",
+                            "id": 3,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"wind_direction\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_tlid25jjv1_itdhpp6huvm\", \"fromFormData\": true, \"isExtra\": false, \"operator\": \"==\", \"sqlExpression\": null, \"subject\": \"wtype\"}], \"annotation_layers\": [], \"bar_stacked\": false, \"bottom_margin\": \"auto\", \"color_scheme\": \"bnbColors\", \"comparison_type\": \"values\", \"contribution\": false, \"datasource\": \"3__table\", \"granularity_sqla\": \"window_start\", \"groupby\": [\"wtype\", \"station\"], \"label_colors\": {\"temperature, S100\": \"#bbedab\", \"temperature, S104\": \"#cbc29a\", \"temperature, S106\": \"#005c66\", \"temperature, S107\": \"#b4a76c\", \"temperature, S108\": \"#b37e00\", \"temperature, S111\": \"#ff3339\", \"temperature, S115\": \"#ff8083\", \"temperature, S116\": \"#00a1b3\", \"temperature, S117\": \"#cc0086\", \"temperature, S121\": \"#ffd266\", \"temperature, S122\": \"#55d12e\", \"temperature, S24\": \"#00b3a5\", \"temperature, S43\": \"#ffb400\", \"temperature, S44\": \"#ff1ab1\", \"temperature, S50\": \"#00ffeb\", \"wind_direction, S100\": \"#988b4e\", \"wind_direction, S104\": \"#00d1c1\", \"wind_direction, S106\": \"#b37e00\", \"wind_direction, S107\": \"#7b0051\", \"wind_direction, S108\": \"#8ce071\", \"wind_direction, S115\": \"#ff1ab1\", \"wind_direction, S116\": \"#55d12e\", \"wind_direction, S117\": \"#ff5a5f\", \"wind_direction, S122\": \"#ff3339\", \"wind_direction, S24\": \"#005c66\", \"wind_direction, S43\": \"#cbc29a\", \"wind_direction, S44\": \"#00b3a5\", \"wind_direction, S50\": \"#007A87\", \"wind_speed, S100\": \"#00a1b3\", \"wind_speed, S104\": \"#007A87\", \"wind_speed, S106\": \"#bbedab\", \"wind_speed, S107\": \"#7b0051\", \"wind_speed, S108\": \"#ffd266\", \"wind_speed, S115\": \"#ff8083\", \"wind_speed, S116\": \"#ff5a5f\", \"wind_speed, S117\": \"#8ce071\", \"wind_speed, S122\": \"#00ffeb\", \"wind_speed, S24\": \"#b4a76c\", \"wind_speed, S43\": \"#00d1c1\", \"wind_speed, S44\": \"#cc0086\", \"wind_speed, S50\": \"#ffb400\"}, \"left_margin\": \"auto\", \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"avg_value\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 3, \"is_dttm\": false, \"optionName\": \"_col_avg_value\", \"type\": \"DOUBLE PRECISION\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"fromFormData\": true, \"hasCustomLabel\": false, \"label\": \"AVG(avg_value)\", \"optionName\": \"metric_sxrq1lpvrv_hkietiyt5gl\", \"sqlExpression\": null}], \"order_desc\": true, \"reduce_x_ticks\": false, \"resample_method\": null, \"resample_rule\": null, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 10000, \"show_bar_value\": false, \"show_brush\": \"auto\", \"show_controls\": false, \"show_legend\": true, \"slice_id\": 3, \"time_grain_sqla\": \"PT1H\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"timeseries_limit_metric\": null, \"url_params\": {\"preselect_filters\": \"{\\\"7\\\": {\\\"__time_range\\\": \\\"No filter\\\"}, \\\"8\\\": {\\\"__time_range\\\": \\\"No filter\\\"}, \\\"10\\\": {\\\"__time_range\\\": \\\"No filter\\\"}, \\\"11\\\": {\\\"__time_range\\\": \\\"No filter\\\"}}\"}, \"viz_type\": \"bar\", \"x_axis_format\": \"%Y-%m-%d %H:%M:%S\", \"x_axis_label\": \"\", \"x_axis_showminmax\": false, \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_label\": \"\", \"y_axis_showminmax\": false, \"y_log_scale\": false, \"remote_id\": 3, \"datasource_name\": \"final\", \"schema\": null, \"database_name\": \"WeatherDB\"}",
+                            "slice_name": "Wind Direction",
+                            "viz_type": "bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "final",
+                            "datasource_type": "table",
+                            "id": 4,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"rainfall\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_tlid25jjv1_itdhpp6huvm\", \"fromFormData\": true, \"isExtra\": false, \"operator\": \"==\", \"sqlExpression\": null, \"subject\": \"wtype\"}], \"annotation_layers\": [], \"bar_stacked\": false, \"bottom_margin\": \"auto\", \"color_scheme\": \"bnbColors\", \"comparison_type\": \"values\", \"contribution\": false, \"datasource\": \"3__table\", \"granularity_sqla\": \"window_start\", \"groupby\": [\"wtype\", \"station\"], \"label_colors\": {}, \"left_margin\": \"auto\", \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"avg_value\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 3, \"is_dttm\": false, \"optionName\": \"_col_avg_value\", \"type\": \"DOUBLE PRECISION\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"fromFormData\": true, \"hasCustomLabel\": false, \"label\": \"AVG(avg_value)\", \"optionName\": \"metric_sxrq1lpvrv_hkietiyt5gl\", \"sqlExpression\": null}], \"order_desc\": true, \"reduce_x_ticks\": false, \"resample_method\": null, \"resample_rule\": null, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 10000, \"show_bar_value\": false, \"show_brush\": \"auto\", \"show_controls\": false, \"show_legend\": true, \"slice_id\": 4, \"time_grain_sqla\": \"PT1H\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"timeseries_limit_metric\": null, \"url_params\": {\"preselect_filters\": \"{\\\"7\\\": {\\\"__time_range\\\": \\\"No filter\\\"}, \\\"8\\\": {\\\"__time_range\\\": \\\"No filter\\\"}, \\\"10\\\": {\\\"__time_range\\\": \\\"No filter\\\"}, \\\"11\\\": {\\\"__time_range\\\": \\\"No filter\\\"}}\"}, \"viz_type\": \"bar\", \"x_axis_format\": \"%Y-%m-%d %H:%M:%S\", \"x_axis_label\": \"\", \"x_axis_showminmax\": false, \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_label\": \"\", \"y_axis_showminmax\": false, \"y_log_scale\": false, \"remote_id\": 4, \"datasource_name\": \"final\", \"schema\": null, \"database_name\": \"WeatherDB\"}",
+                            "slice_name": "Rainfall",
+                            "viz_type": "bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "final",
+                            "datasource_type": "table",
+                            "id": 5,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"humidity\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_tlid25jjv1_itdhpp6huvm\", \"fromFormData\": true, \"isExtra\": false, \"operator\": \"==\", \"sqlExpression\": null, \"subject\": \"wtype\"}], \"annotation_layers\": [], \"bar_stacked\": false, \"bottom_margin\": \"auto\", \"color_scheme\": \"bnbColors\", \"comparison_type\": \"values\", \"contribution\": false, \"datasource\": \"3__table\", \"granularity_sqla\": \"window_start\", \"groupby\": [\"wtype\", \"station\"], \"label_colors\": {\"temperature, S100\": \"#bbedab\", \"temperature, S104\": \"#cbc29a\", \"temperature, S106\": \"#005c66\", \"temperature, S107\": \"#b4a76c\", \"temperature, S108\": \"#b37e00\", \"temperature, S111\": \"#ff3339\", \"temperature, S115\": \"#ff8083\", \"temperature, S116\": \"#00a1b3\", \"temperature, S117\": \"#cc0086\", \"temperature, S121\": \"#ffd266\", \"temperature, S122\": \"#55d12e\", \"temperature, S24\": \"#00b3a5\", \"temperature, S43\": \"#ffb400\", \"temperature, S44\": \"#ff1ab1\", \"temperature, S50\": \"#00ffeb\", \"wind_direction, S100\": \"#b4a76c\", \"wind_direction, S104\": \"#ffd266\", \"wind_direction, S106\": \"#ffb400\", \"wind_direction, S107\": \"#00a1b3\", \"wind_direction, S108\": \"#00ffeb\", \"wind_direction, S115\": \"#007A87\", \"wind_direction, S116\": \"#ff8083\", \"wind_direction, S117\": \"#cc0086\", \"wind_direction, S122\": \"#7b0051\", \"wind_direction, S24\": \"#00d1c1\", \"wind_direction, S43\": \"#ff5a5f\", \"wind_direction, S44\": \"#8ce071\", \"wind_direction, S50\": \"#bbedab\", \"wind_speed, S100\": \"#7b0051\", \"wind_speed, S104\": \"#ff1ab1\", \"wind_speed, S106\": \"#00d1c1\", \"wind_speed, S107\": \"#ff3339\", \"wind_speed, S108\": \"#8ce071\", \"wind_speed, S115\": \"#988b4e\", \"wind_speed, S116\": \"#cbc29a\", \"wind_speed, S117\": \"#00b3a5\", \"wind_speed, S122\": \"#007A87\", \"wind_speed, S24\": \"#b37e00\", \"wind_speed, S43\": \"#005c66\", \"wind_speed, S44\": \"#ff5a5f\", \"wind_speed, S50\": \"#55d12e\"}, \"left_margin\": \"auto\", \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"avg_value\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 3, \"is_dttm\": false, \"optionName\": \"_col_avg_value\", \"type\": \"DOUBLE PRECISION\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"fromFormData\": true, \"hasCustomLabel\": false, \"label\": \"AVG(avg_value)\", \"optionName\": \"metric_sxrq1lpvrv_hkietiyt5gl\", \"sqlExpression\": null}], \"order_desc\": true, \"reduce_x_ticks\": false, \"resample_method\": null, \"resample_rule\": null, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": null, \"show_bar_value\": false, \"show_brush\": \"auto\", \"show_controls\": false, \"show_legend\": true, \"slice_id\": 5, \"time_grain_sqla\": \"PT1H\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"timeseries_limit_metric\": null, \"url_params\": {\"preselect_filters\": \"{\\\"7\\\": {\\\"__time_range\\\": \\\"No filter\\\"}, \\\"8\\\": {\\\"__time_range\\\": \\\"No filter\\\"}, \\\"10\\\": {\\\"__time_range\\\": \\\"No filter\\\"}, \\\"11\\\": {\\\"__time_range\\\": \\\"No filter\\\"}}\"}, \"viz_type\": \"bar\", \"x_axis_format\": \"%Y-%m-%d %H:%M:%S\", \"x_axis_label\": \"Time\", \"x_axis_showminmax\": false, \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_label\": \"\", \"y_axis_showminmax\": false, \"y_log_scale\": false, \"remote_id\": 5, \"datasource_name\": \"final\", \"schema\": null, \"database_name\": \"WeatherDB\"}",
+                            "slice_name": "humidity",
+                            "viz_type": "bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "final",
+                            "datasource_type": "table",
+                            "id": 6,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"temperature\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_tlid25jjv1_itdhpp6huvm\", \"fromFormData\": true, \"isExtra\": false, \"operator\": \"==\", \"sqlExpression\": null, \"subject\": \"wtype\"}], \"annotation_layers\": [], \"bar_stacked\": false, \"bottom_margin\": \"auto\", \"color_scheme\": \"bnbColors\", \"comparison_type\": \"values\", \"contribution\": false, \"datasource\": \"3__table\", \"granularity_sqla\": \"window_start\", \"groupby\": [\"wtype\", \"station\"], \"label_colors\": {\"wind_direction, S100\": \"#b4a76c\", \"wind_direction, S104\": \"#ffd266\", \"wind_direction, S106\": \"#ffb400\", \"wind_direction, S107\": \"#00a1b3\", \"wind_direction, S108\": \"#00ffeb\", \"wind_direction, S115\": \"#007A87\", \"wind_direction, S116\": \"#ff8083\", \"wind_direction, S117\": \"#cc0086\", \"wind_direction, S122\": \"#7b0051\", \"wind_direction, S24\": \"#00d1c1\", \"wind_direction, S43\": \"#ff5a5f\", \"wind_direction, S44\": \"#8ce071\", \"wind_direction, S50\": \"#bbedab\", \"wind_speed, S100\": \"#7b0051\", \"wind_speed, S104\": \"#ff1ab1\", \"wind_speed, S106\": \"#00d1c1\", \"wind_speed, S107\": \"#ff3339\", \"wind_speed, S108\": \"#8ce071\", \"wind_speed, S115\": \"#988b4e\", \"wind_speed, S116\": \"#cbc29a\", \"wind_speed, S117\": \"#00b3a5\", \"wind_speed, S122\": \"#007A87\", \"wind_speed, S24\": \"#b37e00\", \"wind_speed, S43\": \"#005c66\", \"wind_speed, S44\": \"#ff5a5f\", \"wind_speed, S50\": \"#55d12e\"}, \"left_margin\": \"auto\", \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"avg_value\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 3, \"is_dttm\": false, \"optionName\": \"_col_avg_value\", \"type\": \"DOUBLE PRECISION\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"fromFormData\": true, \"hasCustomLabel\": false, \"label\": \"AVG(avg_value)\", \"optionName\": \"metric_sxrq1lpvrv_hkietiyt5gl\", \"sqlExpression\": null}], \"order_desc\": true, \"reduce_x_ticks\": false, \"resample_method\": null, \"resample_rule\": null, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 10000, \"show_bar_value\": false, \"show_brush\": \"auto\", \"show_controls\": false, \"show_legend\": true, \"slice_id\": 6, \"time_grain_sqla\": \"PT1H\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"timeseries_limit_metric\": null, \"url_params\": {\"preselect_filters\": \"{\\\"7\\\": {\\\"__time_range\\\": \\\"No filter\\\"}, \\\"8\\\": {\\\"__time_range\\\": \\\"No filter\\\"}, \\\"10\\\": {\\\"__time_range\\\": \\\"No filter\\\"}, \\\"11\\\": {\\\"__time_range\\\": \\\"No filter\\\"}}\"}, \"viz_type\": \"bar\", \"x_axis_format\": \"smart_date\", \"x_axis_label\": \"\", \"x_axis_showminmax\": false, \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_label\": \"\", \"y_axis_showminmax\": false, \"y_log_scale\": false, \"remote_id\": 6, \"datasource_name\": \"final\", \"schema\": null, \"database_name\": \"WeatherDB\"}",
+                            "slice_name": "temperature",
+                            "viz_type": "bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "final",
+                            "datasource_type": "table",
+                            "id": 7,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"temperature\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_tlid25jjv1_itdhpp6huvm\", \"fromFormData\": true, \"isExtra\": false, \"operator\": \"==\", \"sqlExpression\": null, \"subject\": \"wtype\"}], \"datasource\": \"3__table\", \"date_filter\": true, \"filter_configs\": [{\"asc\": true, \"clearable\": true, \"column\": \"station\", \"key\": \"t97G5VWbw\", \"multiple\": true}, {\"asc\": true, \"clearable\": true, \"column\": \"station_name\", \"key\": \"lUMMYTWzo\", \"multiple\": true}], \"granularity_sqla\": \"window_start\", \"instant_filtering\": true, \"show_druid_time_granularity\": false, \"show_druid_time_origin\": false, \"show_sqla_time_column\": false, \"show_sqla_time_granularity\": false, \"slice_id\": 7, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {\"preselect_filters\": \"{\\\"7\\\": {\\\"__time_range\\\": \\\"No filter\\\"}, \\\"8\\\": {\\\"__time_range\\\": \\\"No filter\\\"}, \\\"9\\\": {\\\"__time_range\\\": \\\"No filter\\\"}, \\\"10\\\": {\\\"__time_range\\\": \\\"No filter\\\"}, \\\"11\\\": {\\\"__time_range\\\": \\\"No filter\\\"}}\"}, \"viz_type\": \"filter_box\", \"remote_id\": 7, \"datasource_name\": \"final\", \"schema\": null, \"database_name\": \"WeatherDB\"}",
+                            "slice_name": "temperature_filter",
+                            "viz_type": "filter_box"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "final",
+                            "datasource_type": "table",
+                            "id": 8,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"rainfall\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_tlid25jjv1_itdhpp6huvm\", \"fromFormData\": true, \"isExtra\": false, \"operator\": \"==\", \"sqlExpression\": null, \"subject\": \"wtype\"}], \"datasource\": \"3__table\", \"date_filter\": true, \"filter_configs\": [{\"asc\": true, \"clearable\": true, \"column\": \"station\", \"key\": \"t97G5VWbw\", \"label\": \"station_id\", \"multiple\": true}, {\"asc\": true, \"clearable\": true, \"column\": \"station_name\", \"key\": \"-EbjtCc2V\", \"multiple\": true}], \"granularity_sqla\": \"window_start\", \"instant_filtering\": true, \"show_druid_time_granularity\": false, \"show_druid_time_origin\": false, \"show_sqla_time_column\": false, \"show_sqla_time_granularity\": false, \"slice_id\": 8, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"filter_box\", \"remote_id\": 8, \"datasource_name\": \"final\", \"schema\": null, \"database_name\": \"WeatherDB\"}",
+                            "slice_name": "rainfall_filter",
+                            "viz_type": "filter_box"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "final",
+                            "datasource_type": "table",
+                            "id": 10,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"wind_direction\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_tlid25jjv1_itdhpp6huvm\", \"fromFormData\": true, \"isExtra\": false, \"operator\": \"==\", \"sqlExpression\": null, \"subject\": \"wtype\"}], \"datasource\": \"3__table\", \"date_filter\": true, \"filter_configs\": [{\"asc\": true, \"clearable\": true, \"column\": \"station\", \"key\": \"t97G5VWbw\", \"multiple\": true}, {\"asc\": true, \"clearable\": true, \"column\": \"station_name\", \"key\": \"YTssuAObZ\", \"multiple\": true}], \"granularity_sqla\": \"window_start\", \"instant_filtering\": true, \"show_druid_time_granularity\": false, \"show_druid_time_origin\": false, \"show_sqla_time_column\": false, \"show_sqla_time_granularity\": false, \"slice_id\": 10, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"filter_box\", \"remote_id\": 10, \"datasource_name\": \"final\", \"schema\": null, \"database_name\": \"WeatherDB\"}",
+                            "slice_name": "wind_filter",
+                            "viz_type": "filter_box"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "final",
+                            "datasource_type": "table",
+                            "id": 11,
+                            "params": "{\"adhoc_filters\": [{\"clause\": \"WHERE\", \"comparator\": \"humidity\", \"expressionType\": \"SIMPLE\", \"filterOptionName\": \"filter_tlid25jjv1_itdhpp6huvm\", \"fromFormData\": true, \"isExtra\": false, \"operator\": \"==\", \"sqlExpression\": null, \"subject\": \"wtype\"}], \"datasource\": \"3__table\", \"date_filter\": true, \"filter_configs\": [{\"asc\": true, \"clearable\": true, \"column\": \"station\", \"key\": \"t97G5VWbw\", \"multiple\": true}, {\"asc\": true, \"clearable\": true, \"column\": \"station_name\", \"key\": \"3KO7HEjE0\", \"multiple\": true}], \"granularity_sqla\": \"window_start\", \"instant_filtering\": true, \"show_druid_time_granularity\": false, \"show_druid_time_origin\": false, \"show_sqla_time_column\": false, \"show_sqla_time_granularity\": false, \"slice_id\": 11, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"filter_box\", \"remote_id\": 11, \"datasource_name\": \"final\", \"schema\": null, \"database_name\": \"WeatherDB\"}",
+                            "slice_name": "humidity_filter",
+                            "viz_type": "filter_box"
+                        }
+                    }
+                ],
+                "slug": null
+            }
+        }
+    ],
+    "datasources": [
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-07-09T08:46:06"
+                            },
+                            "column_name": "wtype",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-07-09T08:46:06"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 1,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "VARCHAR",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-07-09T08:46:06"
+                            },
+                            "column_name": "station",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-07-09T08:46:06"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 2,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "VARCHAR",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-07-09T08:46:06"
+                            },
+                            "column_name": "avg_value",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-07-09T08:46:06"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 3,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "DOUBLE PRECISION",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-07-09T08:46:06"
+                            },
+                            "column_name": "window_end",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-07-09T08:46:06"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 4,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "TIMESTAMP WITHOUT TIME ZONE",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-07-09T08:46:06"
+                            },
+                            "column_name": "window_start",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-07-09T08:46:06"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 5,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 1,
+                            "type": "TIMESTAMP WITHOUT TIME ZONE",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 3,
+                "default_endpoint": null,
+                "description": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": "window_end",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-07-09T08:46:06"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-07-09T08:46:06"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "id": 1,
+                            "metric_name": "count",
+                            "metric_type": "count",
+                            "table_id": 1,
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 1, \"database_name\": \"WeatherDB\"}",
+                "schema": null,
+                "sql": null,
+                "table_name": "weather_avg_sg",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-07-14T02:46:27"
+                            },
+                            "column_name": "latitude",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-07-14T02:46:27"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 12,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 3,
+                            "type": "DOUBLE PRECISION",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-07-14T02:46:27"
+                            },
+                            "column_name": "longitude",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-07-14T02:46:27"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 13,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 3,
+                            "type": "DOUBLE PRECISION",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-07-14T02:46:27"
+                            },
+                            "column_name": "station_name",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-07-14T02:46:27"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 14,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 3,
+                            "type": "VARCHAR",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-07-14T02:46:27"
+                            },
+                            "column_name": "station",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-07-14T02:46:27"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 15,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 3,
+                            "type": "VARCHAR",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-07-14T02:46:27"
+                            },
+                            "column_name": "wtype",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-07-14T02:46:27"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 16,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 3,
+                            "type": "VARCHAR",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-07-14T02:46:27"
+                            },
+                            "column_name": "avg_value",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-07-14T02:46:27"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 17,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 3,
+                            "type": "DOUBLE PRECISION",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-07-14T02:46:27"
+                            },
+                            "column_name": "window_end",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-07-14T02:46:27"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 18,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 3,
+                            "type": "TIMESTAMP WITHOUT TIME ZONE",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-07-14T02:46:27"
+                            },
+                            "column_name": "window_start",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-07-14T02:46:27"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 19,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 3,
+                            "type": "TIMESTAMP WITHOUT TIME ZONE",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 3,
+                "default_endpoint": null,
+                "description": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": "window_end",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-07-14T02:46:27"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-07-14T02:46:27"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "id": 3,
+                            "metric_name": "count",
+                            "metric_type": "count",
+                            "table_id": 3,
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 3, \"database_name\": \"WeatherDB\"}",
+                "schema": null,
+                "sql": null,
+                "table_name": "final",
+                "template_params": null
+            }
+        }
+    ]
+}
