@@ -1,0 +1,1219 @@
+{
+    "dashboards": [
+        {
+            "__Dashboard__": {
+                "css": "",
+                "dashboard_title": "K8S Dashboard",
+                "description": null,
+                "json_metadata": "{\"timed_refresh_immune_slices\": [], \"expanded_slices\": {}, \"refresh_frequency\": 0, \"default_filters\": \"{\\\"16\\\": {\\\"__time_range\\\": \\\"No filter\\\"}}\", \"filter_scopes\": {\"16\": {\"host_ip\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}, \"phase\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}, \"pod_ip\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}, \"__time_range\": {\"scope\": [\"ROOT_ID\"], \"immune\": []}}}, \"remote_id\": 2, \"import_time\": 1597371844}",
+                "position_json": "{\"CHART-0PpGbss9Wv\":{\"children\":[],\"id\":\"CHART-0PpGbss9Wv\",\"meta\":{\"chartId\":20,\"height\":74,\"sliceName\":\"CPU Timeline\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNZbxrpvck\",\"TAB-IrZ5UOdexz\",\"ROW-btZr2K05R\"],\"type\":\"CHART\"},\"CHART-BHyzkMepPl\":{\"children\":[],\"id\":\"CHART-BHyzkMepPl\",\"meta\":{\"chartId\":21,\"height\":74,\"sliceName\":\"GPU Timeline\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNZbxrpvck\",\"TAB-IrZ5UOdexz\",\"ROW-btZr2K05R\"],\"type\":\"CHART\"},\"CHART-BPQ15IASY4\":{\"children\":[],\"id\":\"CHART-BPQ15IASY4\",\"meta\":{\"chartId\":14,\"height\":52,\"sliceName\":\"Max Mem\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNZbxrpvck\",\"TAB-IrZ5UOdexz\",\"ROW-yx9NIFH0n8\"],\"type\":\"CHART\"},\"CHART-EE45SKwlnI\":{\"children\":[],\"id\":\"CHART-EE45SKwlnI\",\"meta\":{\"chartId\":15,\"height\":47,\"sliceName\":\"Max Resources Left\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNZbxrpvck\",\"TAB-IrZ5UOdexz\",\"ROW-jVQTniDwj\"],\"type\":\"CHART\"},\"CHART-MEZdUHZo4R\":{\"children\":[],\"id\":\"CHART-MEZdUHZo4R\",\"meta\":{\"chartId\":17,\"height\":52,\"sliceName\":\"CPU Usage\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNZbxrpvck\",\"TAB-2bi0ONEaW\",\"ROW-0ZVN-8wQQ7\"],\"type\":\"CHART\"},\"CHART-aOIuJDAQhY\":{\"children\":[],\"id\":\"CHART-aOIuJDAQhY\",\"meta\":{\"chartId\":18,\"height\":51,\"sliceName\":\"Memory Usage (GB)\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNZbxrpvck\",\"TAB-2bi0ONEaW\",\"ROW-0ZVN-8wQQ7\"],\"type\":\"CHART\"},\"CHART-d6YLBKX406\":{\"children\":[],\"id\":\"CHART-d6YLBKX406\",\"meta\":{\"chartId\":13,\"height\":51,\"sliceName\":\"Max CPU\",\"width\":6},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNZbxrpvck\",\"TAB-IrZ5UOdexz\",\"ROW-yx9NIFH0n8\"],\"type\":\"CHART\"},\"CHART-f-oB2OWEFd\":{\"children\":[],\"id\":\"CHART-f-oB2OWEFd\",\"meta\":{\"chartId\":16,\"height\":60,\"sliceName\":\"Filter For Pods\",\"width\":2},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNZbxrpvck\",\"TAB-H0cOG0qHt\",\"ROW--yfL-LSjrA\"],\"type\":\"CHART\"},\"CHART-g5FPj4O7-i\":{\"children\":[],\"id\":\"CHART-g5FPj4O7-i\",\"meta\":{\"chartId\":11,\"height\":68,\"sliceName\":\"Overall Detail\",\"width\":12},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNZbxrpvck\",\"TAB-2bi0ONEaW\",\"ROW-jphAJSkxV\"],\"type\":\"CHART\"},\"CHART-ixPKP6kjSG\":{\"children\":[],\"id\":\"CHART-ixPKP6kjSG\",\"meta\":{\"chartId\":12,\"height\":60,\"sliceName\":\"Pods\",\"width\":10},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNZbxrpvck\",\"TAB-H0cOG0qHt\",\"ROW--yfL-LSjrA\"],\"type\":\"CHART\"},\"CHART-zaL8OTYRvD\":{\"children\":[],\"id\":\"CHART-zaL8OTYRvD\",\"meta\":{\"chartId\":19,\"height\":67,\"sliceName\":\"Namespace Usage\",\"width\":10},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNZbxrpvck\",\"TAB-7iOFaWiem\",\"ROW-iUF5C-wM30\"],\"type\":\"CHART\"},\"DASHBOARD_VERSION_KEY\":\"v2\",\"DIVIDER-0pKKqIEMeM\":{\"children\":[],\"id\":\"DIVIDER-0pKKqIEMeM\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNZbxrpvck\",\"TAB-IrZ5UOdexz\"],\"type\":\"DIVIDER\"},\"DIVIDER-4Lwy3Fob9n\":{\"children\":[],\"id\":\"DIVIDER-4Lwy3Fob9n\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNZbxrpvck\",\"TAB-2bi0ONEaW\"],\"type\":\"DIVIDER\"},\"DIVIDER-P5drdgMpBj\":{\"children\":[],\"id\":\"DIVIDER-P5drdgMpBj\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNZbxrpvck\",\"TAB-IrZ5UOdexz\"],\"type\":\"DIVIDER\"},\"DIVIDER-V_WvJJpf-1\":{\"children\":[],\"id\":\"DIVIDER-V_WvJJpf-1\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNZbxrpvck\",\"TAB-IrZ5UOdexz\"],\"type\":\"DIVIDER\"},\"DIVIDER-d63ldVYK2e\":{\"children\":[],\"id\":\"DIVIDER-d63ldVYK2e\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNZbxrpvck\",\"TAB-H0cOG0qHt\"],\"type\":\"DIVIDER\"},\"GRID_ID\":{\"children\":[\"HEADER-fhqPqIS-Tx\",\"TABS-NNZbxrpvck\"],\"id\":\"GRID_ID\",\"parents\":[\"ROOT_ID\"],\"type\":\"GRID\"},\"HEADER-fhqPqIS-Tx\":{\"children\":[],\"id\":\"HEADER-fhqPqIS-Tx\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"headerSize\":\"MEDIUM_HEADER\",\"text\":\"K8S Info\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"HEADER\"},\"HEADER_ID\":{\"id\":\"HEADER_ID\",\"meta\":{\"text\":\"K8S Dashboard\"},\"type\":\"HEADER\"},\"ROOT_ID\":{\"children\":[\"GRID_ID\"],\"id\":\"ROOT_ID\",\"type\":\"ROOT\"},\"ROW--yfL-LSjrA\":{\"children\":[\"CHART-ixPKP6kjSG\",\"CHART-f-oB2OWEFd\"],\"id\":\"ROW--yfL-LSjrA\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNZbxrpvck\",\"TAB-H0cOG0qHt\"],\"type\":\"ROW\"},\"ROW-0ZVN-8wQQ7\":{\"children\":[\"CHART-aOIuJDAQhY\",\"CHART-MEZdUHZo4R\"],\"id\":\"ROW-0ZVN-8wQQ7\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNZbxrpvck\",\"TAB-2bi0ONEaW\"],\"type\":\"ROW\"},\"ROW-GXhQ6eOBu_\":{\"children\":[],\"id\":\"ROW-GXhQ6eOBu_\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNZbxrpvck\",\"TAB-H0cOG0qHt\"],\"type\":\"ROW\"},\"ROW-btZr2K05R\":{\"children\":[\"CHART-BHyzkMepPl\",\"CHART-0PpGbss9Wv\"],\"id\":\"ROW-btZr2K05R\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNZbxrpvck\",\"TAB-IrZ5UOdexz\"],\"type\":\"ROW\"},\"ROW-hn_ZfqY3Uo\":{\"children\":[],\"id\":\"ROW-hn_ZfqY3Uo\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNZbxrpvck\",\"TAB-H0cOG0qHt\"],\"type\":\"ROW\"},\"ROW-iUF5C-wM30\":{\"children\":[\"CHART-zaL8OTYRvD\"],\"id\":\"ROW-iUF5C-wM30\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNZbxrpvck\",\"TAB-7iOFaWiem\"],\"type\":\"ROW\"},\"ROW-jVQTniDwj\":{\"children\":[\"CHART-EE45SKwlnI\"],\"id\":\"ROW-jVQTniDwj\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNZbxrpvck\",\"TAB-IrZ5UOdexz\"],\"type\":\"ROW\"},\"ROW-jphAJSkxV\":{\"children\":[\"CHART-g5FPj4O7-i\"],\"id\":\"ROW-jphAJSkxV\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNZbxrpvck\",\"TAB-2bi0ONEaW\"],\"type\":\"ROW\"},\"ROW-yx9NIFH0n8\":{\"children\":[\"CHART-BPQ15IASY4\",\"CHART-d6YLBKX406\"],\"id\":\"ROW-yx9NIFH0n8\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNZbxrpvck\",\"TAB-IrZ5UOdexz\"],\"type\":\"ROW\"},\"TAB-2bi0ONEaW\":{\"children\":[\"ROW-0ZVN-8wQQ7\",\"DIVIDER-4Lwy3Fob9n\",\"ROW-jphAJSkxV\"],\"id\":\"TAB-2bi0ONEaW\",\"meta\":{\"text\":\"Nodes\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNZbxrpvck\"],\"type\":\"TAB\"},\"TAB-7iOFaWiem\":{\"children\":[\"ROW-iUF5C-wM30\"],\"id\":\"TAB-7iOFaWiem\",\"meta\":{\"text\":\"Namespace\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNZbxrpvck\"],\"type\":\"TAB\"},\"TAB-H0cOG0qHt\":{\"children\":[\"DIVIDER-d63ldVYK2e\",\"ROW-hn_ZfqY3Uo\",\"ROW--yfL-LSjrA\",\"ROW-GXhQ6eOBu_\"],\"id\":\"TAB-H0cOG0qHt\",\"meta\":{\"text\":\"Pods\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNZbxrpvck\"],\"type\":\"TAB\"},\"TAB-IrZ5UOdexz\":{\"children\":[\"ROW-yx9NIFH0n8\",\"DIVIDER-P5drdgMpBj\",\"ROW-jVQTniDwj\",\"DIVIDER-0pKKqIEMeM\",\"ROW-btZr2K05R\",\"DIVIDER-V_WvJJpf-1\"],\"id\":\"TAB-IrZ5UOdexz\",\"meta\":{\"text\":\"Quick Info\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"TABS-NNZbxrpvck\"],\"type\":\"TAB\"},\"TABS-NNZbxrpvck\":{\"children\":[\"TAB-IrZ5UOdexz\",\"TAB-H0cOG0qHt\",\"TAB-2bi0ONEaW\",\"TAB-7iOFaWiem\"],\"id\":\"TABS-NNZbxrpvck\",\"meta\":{},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"TABS\"}}",
+                "slices": [
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "eve",
+                            "datasource_type": "table",
+                            "id": 11,
+                            "params": "{\"adhoc_filters\": [], \"align_pn\": false, \"all_columns\": [], \"color_pn\": true, \"datasource\": \"13__table\", \"granularity_sqla\": null, \"groupby\": [\"host_ip\", \"total_cpu\", \"total_memory\", \"attachable_disk\", \"cpu\", \"memory\", \"max_pods\", \"hostname\", \"internalip\", \"volumes_attached\", \"voluems_in_use\", \"volumes_left\", \"cpu_left\", \"memory_left\"], \"include_search\": false, \"include_time\": false, \"metrics\": [], \"order_by_cols\": [], \"order_desc\": true, \"page_length\": 0, \"percent_metrics\": [], \"row_limit\": 10000, \"slice_id\": 15, \"table_filter\": false, \"table_timestamp_format\": \"%Y-%m-%d %H:%M:%S\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"timeseries_limit_metric\": null, \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 11, \"datasource_name\": \"eve\", \"schema\": null, \"database_name\": \"New K8S DB\", \"import_time\": 1597371844}",
+                            "slice_name": "Overall Detail",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "podss",
+                            "datasource_type": "table",
+                            "id": 12,
+                            "params": "{\"adhoc_filters\": [], \"align_pn\": false, \"all_columns\": [], \"color_pn\": true, \"datasource\": \"14__table\", \"granularity_sqla\": \"added_time\", \"groupby\": [\"host_ip\", \"pod_name\", \"pod_ip\", \"rl_cpu\", \"rl_memory\", \"added_time\", \"container_name\", \"rr_memory\", \"rr_cpu\", \"namespace\", \"start_time\", \"id\", \"creation_timestamp\", \"phase\"], \"include_search\": false, \"include_time\": false, \"metrics\": [], \"order_by_cols\": [], \"order_desc\": true, \"page_length\": 0, \"percent_metrics\": [], \"row_limit\": 10000, \"slice_id\": 16, \"table_filter\": false, \"table_timestamp_format\": \"%Y-%m-%d %H:%M:%S\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"timeseries_limit_metric\": null, \"url_params\": {\"preselect_filters\": \"{\\\"21\\\": {\\\"__time_range\\\": \\\"No filter\\\"}}\"}, \"viz_type\": \"table\", \"remote_id\": 12, \"datasource_name\": \"podss\", \"schema\": null, \"database_name\": \"New K8S DB\", \"import_time\": 1597371844}",
+                            "slice_name": "Pods",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "eve",
+                            "datasource_type": "table",
+                            "id": 13,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"13__table\", \"granularity_sqla\": null, \"header_font_size\": 0.3, \"metric\": {\"aggregate\": \"MAX\", \"column\": {\"column_name\": \"cpu_left\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 121, \"is_dttm\": false, \"optionName\": \"_col_cpu_left\", \"type\": \"DOUBLE PRECISION\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"fromFormData\": false, \"hasCustomLabel\": false, \"label\": \"MAX(cpu_left)\", \"optionName\": \"metric_71nvv54dgy_q5npmvhlos\", \"sqlExpression\": null}, \"slice_id\": 17, \"subheader\": \"MAX CPU\", \"subheader_font_size\": 0.125, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number_total\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 13, \"datasource_name\": \"eve\", \"schema\": null, \"database_name\": \"New K8S DB\", \"import_time\": 1597371844}",
+                            "slice_name": "Max CPU",
+                            "viz_type": "big_number_total"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "eve",
+                            "datasource_type": "table",
+                            "id": 14,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"13__table\", \"granularity_sqla\": null, \"header_font_size\": 0.3, \"metric\": {\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"fromFormData\": true, \"hasCustomLabel\": false, \"label\": \"MAX(memory_left/1024/1024/1024)\", \"optionName\": \"metric_xl3fu8caav_i68o12qwc6q\", \"sqlExpression\": \"MAX(memory_left/1024/1024/1024)\"}, \"slice_id\": 18, \"subheader\": \"MAX MEMORY(GB)\", \"subheader_font_size\": 0.125, \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"big_number_total\", \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 14, \"datasource_name\": \"eve\", \"schema\": null, \"database_name\": \"New K8S DB\", \"import_time\": 1597371844}",
+                            "slice_name": "Max Mem",
+                            "viz_type": "big_number_total"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "eve",
+                            "datasource_type": "table",
+                            "id": 15,
+                            "params": "{\"adhoc_filters\": [], \"align_pn\": false, \"all_columns\": [], \"color_pn\": false, \"datasource\": \"13__table\", \"granularity_sqla\": null, \"groupby\": [\"host_ip\"], \"include_search\": false, \"include_time\": false, \"metrics\": [{\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"fromFormData\": true, \"hasCustomLabel\": true, \"label\": \"Mem Left (GB)\", \"optionName\": \"metric_g8e9f3ej9ji_x8i6mlzkg8i\", \"sqlExpression\": \"cast(SUM(memory_left/1024/1024/1024) as decimal(10,2))\"}, {\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"fromFormData\": true, \"hasCustomLabel\": true, \"label\": \"CPU Left\", \"optionName\": \"metric_g7ne8356mw6_ioqwa4x998\", \"sqlExpression\": \"cast(SUM(cpu_left) as decimal(10,2))\"}], \"order_by_cols\": [], \"order_desc\": true, \"page_length\": 0, \"percent_metrics\": [], \"row_limit\": 10000, \"slice_id\": 20, \"table_filter\": false, \"table_timestamp_format\": \"%Y-%m-%d %H:%M:%S\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"timeseries_limit_metric\": null, \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 15, \"datasource_name\": \"eve\", \"schema\": null, \"database_name\": \"New K8S DB\", \"import_time\": 1597371844}",
+                            "slice_name": "Max Resources Left",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "podss",
+                            "datasource_type": "table",
+                            "id": 16,
+                            "params": "{\"adhoc_filters\": [], \"datasource\": \"14__table\", \"date_filter\": true, \"filter_configs\": [{\"asc\": true, \"clearable\": true, \"column\": \"host_ip\", \"key\": \"5j2ft4eAV\", \"multiple\": true}, {\"asc\": true, \"clearable\": true, \"column\": \"phase\", \"key\": \"5VwH9IHBV\", \"multiple\": true}, {\"asc\": true, \"clearable\": true, \"column\": \"pod_ip\", \"key\": \"iM1fCCzIh\", \"multiple\": true}], \"granularity_sqla\": \"added_time\", \"instant_filtering\": true, \"show_druid_time_granularity\": false, \"show_druid_time_origin\": false, \"show_sqla_time_column\": false, \"show_sqla_time_granularity\": false, \"slice_id\": 21, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {\"preselect_filters\": \"{\\\"21\\\": {\\\"__time_range\\\": \\\"No filter\\\"}}\"}, \"viz_type\": \"filter_box\", \"remote_id\": 16, \"datasource_name\": \"podss\", \"schema\": null, \"database_name\": \"New K8S DB\", \"import_time\": 1597371844}",
+                            "slice_name": "Filter For Pods",
+                            "viz_type": "filter_box"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "eve",
+                            "datasource_type": "table",
+                            "id": 17,
+                            "params": "{\"adhoc_filters\": [], \"bar_stacked\": true, \"bottom_margin\": \"auto\", \"color_scheme\": \"bnbColors\", \"columns\": [], \"contribution\": false, \"datasource\": \"13__table\", \"granularity_sqla\": null, \"groupby\": [\"host_ip\"], \"label_colors\": {}, \"metrics\": [{\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"total_cpu\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 110, \"is_dttm\": false, \"optionName\": \"_col_total_cpu\", \"type\": \"DOUBLE PRECISION\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"fromFormData\": true, \"hasCustomLabel\": true, \"label\": \"CPU Used\", \"optionName\": \"metric_m6asuxlrl3_63l3u68iegw\", \"sqlExpression\": null}, {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"cpu_left\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 121, \"is_dttm\": false, \"optionName\": \"_col_cpu_left\", \"type\": \"DOUBLE PRECISION\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"fromFormData\": true, \"hasCustomLabel\": true, \"label\": \"CPU Left\", \"optionName\": \"metric_9jl6tezk0ka_nnveovnyvfm\", \"sqlExpression\": null}], \"order_bars\": false, \"reduce_x_ticks\": false, \"row_limit\": 10000, \"show_bar_value\": false, \"show_controls\": false, \"show_legend\": true, \"slice_id\": 22, \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"dist_bar\", \"x_axis_label\": \"\", \"x_ticks_layout\": \"auto\", \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_label\": \"\", \"remote_id\": 17, \"datasource_name\": \"eve\", \"schema\": null, \"database_name\": \"New K8S DB\", \"import_time\": 1597371844}",
+                            "slice_name": "CPU Usage",
+                            "viz_type": "dist_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "eve",
+                            "datasource_type": "table",
+                            "id": 18,
+                            "params": "{\"adhoc_filters\": [], \"bar_stacked\": true, \"bottom_margin\": \"auto\", \"color_scheme\": \"bnbColors\", \"columns\": [], \"contribution\": false, \"datasource\": \"13__table\", \"granularity_sqla\": null, \"groupby\": [\"host_ip\"], \"label_colors\": {}, \"metrics\": [{\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"fromFormData\": true, \"hasCustomLabel\": true, \"label\": \"Mem Used\", \"optionName\": \"metric_dfx205zx14d_hnmcd6e99ap\", \"sqlExpression\": \"SUM(total_memory/1024/1024/1024)\"}, {\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"fromFormData\": true, \"hasCustomLabel\": true, \"label\": \"Mem Left\", \"optionName\": \"metric_autbm9h9crh_ikrd9hve3g\", \"sqlExpression\": \"SUM(memory_left/1024/1024/1024)\"}], \"order_bars\": false, \"reduce_x_ticks\": false, \"row_limit\": 10000, \"show_bar_value\": false, \"show_controls\": false, \"show_legend\": true, \"slice_id\": 23, \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"dist_bar\", \"x_axis_label\": \"\", \"x_ticks_layout\": \"auto\", \"y_axis_format\": \"SMART_NUMBER\", \"y_axis_label\": \"\", \"remote_id\": 18, \"datasource_name\": \"eve\", \"schema\": null, \"database_name\": \"New K8S DB\", \"import_time\": 1597371844}",
+                            "slice_name": "Memory Usage (GB)",
+                            "viz_type": "dist_bar"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "ns_use",
+                            "datasource_type": "table",
+                            "id": 19,
+                            "params": "{\"adhoc_filters\": [], \"align_pn\": false, \"all_columns\": [], \"color_pn\": true, \"datasource\": \"16__table\", \"granularity_sqla\": null, \"groupby\": [\"namespace\", \"total_cpu\", \"total_memory\"], \"include_search\": false, \"include_time\": false, \"metrics\": [{\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"fromFormData\": true, \"hasCustomLabel\": false, \"label\": \"total_memory in GB\", \"optionName\": \"metric_j400qsj00t_c70mwuuxyll\", \"sqlExpression\": \"(total_memory/1073741824)\"}], \"order_by_cols\": [], \"order_desc\": true, \"page_length\": 0, \"percent_metrics\": [], \"row_limit\": 10000, \"slice_id\": 34, \"table_filter\": false, \"table_timestamp_format\": \"%Y-%m-%d %H:%M:%S\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"timeseries_limit_metric\": null, \"url_params\": {}, \"viz_type\": \"table\", \"remote_id\": 19, \"datasource_name\": \"ns_use\", \"schema\": null, \"database_name\": \"New K8S DB\", \"import_time\": 1597371844}",
+                            "slice_name": "Namespace Usage",
+                            "viz_type": "table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "space_cpu2",
+                            "datasource_type": "table",
+                            "id": 20,
+                            "params": "{\"adhoc_filters\": [], \"column_collection\": [{\"bounds\": [null, null], \"colType\": \"spark\", \"comparisonType\": \"\", \"d3format\": \"\", \"dateFormat\": \"%B %d, %Y\", \"height\": \"50\", \"key\": \"IdlnqwMEd\", \"label\": \"Time Series Columns\", \"showYAxis\": true, \"timeLag\": 0, \"timeRatio\": \"\", \"tooltip\": \"\", \"width\": \"500\", \"yAxisBounds\": [null, null]}], \"datasource\": \"8__table\", \"granularity_sqla\": \"added_time\", \"groupby\": [\"host_ip\"], \"metrics\": [{\"aggregate\": \"AVG\", \"column\": {\"column_name\": \"total_cpu\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 70, \"is_dttm\": false, \"type\": \"DOUBLE PRECISION\", \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"fromFormData\": true, \"hasCustomLabel\": false, \"label\": \"AVG(total_cpu)\", \"optionName\": \"metric_2hco9p3p3oy_8wvclh4stel\", \"sqlExpression\": null}], \"slice_id\": 20, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url\": \"\", \"url_params\": {\"preselect_filters\": \"{\\\"16\\\": {\\\"__time_range\\\": \\\"No filter\\\"}}\"}, \"viz_type\": \"time_table\", \"remote_id\": 20, \"datasource_name\": \"space_cpu2\", \"schema\": null, \"database_name\": \"New K8S DB\"}",
+                            "slice_name": "CPU Timeline",
+                            "viz_type": "time_table"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "space_cpu2",
+                            "datasource_type": "table",
+                            "id": 21,
+                            "params": "{\"adhoc_filters\": [], \"column_collection\": [{\"bounds\": [null, null], \"colType\": \"spark\", \"comparisonType\": \"\", \"d3format\": \"\", \"dateFormat\": \"%B %d, %Y\", \"height\": \"50\", \"key\": \"IdlnqwMEd\", \"label\": \"Time Series Columns\", \"showYAxis\": true, \"timeLag\": 0, \"timeRatio\": \"\", \"tooltip\": \"\", \"width\": \"500\", \"yAxisBounds\": [null, null]}], \"datasource\": \"8__table\", \"granularity_sqla\": \"added_time\", \"groupby\": [\"host_ip\"], \"metrics\": [{\"aggregate\": null, \"column\": null, \"expressionType\": \"SQL\", \"fromFormData\": true, \"hasCustomLabel\": false, \"label\": \"AVG(total_memory/1024/1024/1024)\", \"optionName\": \"metric_2hco9p3p3oy_8wvclh4stel\", \"sqlExpression\": \"AVG(total_memory/1024/1024/1024)\"}], \"slice_id\": 21, \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url\": \"\", \"url_params\": {\"preselect_filters\": \"{\\\"16\\\": {\\\"__time_range\\\": \\\"No filter\\\"}}\"}, \"viz_type\": \"time_table\", \"remote_id\": 21, \"datasource_name\": \"space_cpu2\", \"schema\": null, \"database_name\": \"New K8S DB\"}",
+                            "slice_name": "GPU Timeline",
+                            "viz_type": "time_table"
+                        }
+                    }
+                ],
+                "slug": null
+            }
+        }
+    ],
+    "datasources": [
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "column_name": "start_time",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 51,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "TIMESTAMP WITHOUT TIME ZONE",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "column_name": "image_version",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 52,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "VARCHAR",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "column_name": "phase",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 53,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "VARCHAR",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "column_name": "image_repo",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 54,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "VARCHAR",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "column_name": "host_ip",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 55,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "VARCHAR",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "column_name": "pod_name",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 56,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "VARCHAR",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "column_name": "id",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 57,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "BIGINT",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "column_name": "pod_ip",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 58,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "VARCHAR",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "column_name": "rl_cpu",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 59,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "DOUBLE PRECISION",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "column_name": "rl_memory",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 60,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "DOUBLE PRECISION",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "column_name": "added_time",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 61,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "TIMESTAMP WITHOUT TIME ZONE",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "column_name": "creation_timestamp",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 62,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "TIMESTAMP WITHOUT TIME ZONE",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "column_name": "container_name",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 63,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "VARCHAR",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "column_name": "rr_memory",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 64,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "DOUBLE PRECISION",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "column_name": "rr_cpu",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 65,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "DOUBLE PRECISION",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "column_name": "namespace",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 66,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "VARCHAR",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "column_name": "rankorder",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 67,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7,
+                            "type": "BIGINT",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 3,
+                "default_endpoint": null,
+                "description": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": "start_time",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "id": 7,
+                            "metric_name": "count",
+                            "metric_type": "count",
+                            "table_id": 7,
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 7, \"database_name\": \"New K8S DB\", \"import_time\": 1597371844}",
+                "schema": null,
+                "sql": null,
+                "table_name": "podss",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "column_name": "namespace",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 48,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 6,
+                            "type": "VARCHAR",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "column_name": "total_cpu",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 49,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 6,
+                            "type": "DOUBLE PRECISION",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "column_name": "total_memory",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 50,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 6,
+                            "type": "DOUBLE PRECISION",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 3,
+                "default_endpoint": null,
+                "description": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "id": 6,
+                            "metric_name": "count",
+                            "metric_type": "count",
+                            "table_id": 6,
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 6, \"database_name\": \"New K8S DB\", \"import_time\": 1597371844}",
+                "schema": null,
+                "sql": null,
+                "table_name": "ns_use",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "column_name": "host_ip",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 34,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 5,
+                            "type": "VARCHAR",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "column_name": "total_cpu",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 35,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 5,
+                            "type": "DOUBLE PRECISION",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "column_name": "total_memory",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 36,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 5,
+                            "type": "DOUBLE PRECISION",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "column_name": "attachable_disk",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 37,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 5,
+                            "type": "INTEGER",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "column_name": "cpu",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 38,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 5,
+                            "type": "DOUBLE PRECISION",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "column_name": "memory",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 39,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 5,
+                            "type": "DOUBLE PRECISION",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "column_name": "max_pods",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 40,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 5,
+                            "type": "INTEGER",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "column_name": "hostname",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 41,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 5,
+                            "type": "VARCHAR",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "column_name": "internalip",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 42,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 5,
+                            "type": "VARCHAR",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "column_name": "volumes_attached",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 43,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 5,
+                            "type": "INTEGER",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "column_name": "voluems_in_use",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 44,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 5,
+                            "type": "INTEGER",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "column_name": "volumes_left",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 45,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 5,
+                            "type": "INTEGER",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "column_name": "cpu_left",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 46,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 5,
+                            "type": "DOUBLE PRECISION",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "column_name": "memory_left",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 47,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 5,
+                            "type": "DOUBLE PRECISION",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 3,
+                "default_endpoint": null,
+                "description": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T02:24:04"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "id": 5,
+                            "metric_name": "count",
+                            "metric_type": "count",
+                            "table_id": 5,
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 5, \"database_name\": \"New K8S DB\", \"import_time\": 1597371844}",
+                "schema": null,
+                "sql": null,
+                "table_name": "eve",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T04:54:29"
+                            },
+                            "column_name": "host_ip",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T04:54:29"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 68,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 8,
+                            "type": "VARCHAR",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T04:54:29"
+                            },
+                            "column_name": "added_time",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T04:54:29"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 69,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 8,
+                            "type": "TIMESTAMP WITHOUT TIME ZONE",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T04:54:29"
+                            },
+                            "column_name": "total_cpu",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T04:54:29"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 70,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 8,
+                            "type": "DOUBLE PRECISION",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T04:54:29"
+                            },
+                            "column_name": "total_memory",
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T04:54:29"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 71,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 8,
+                            "type": "DOUBLE PRECISION",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 3,
+                "default_endpoint": null,
+                "description": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": "added_time",
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 1,
+                            "changed_on": {
+                                "__datetime__": "2020-08-14T04:54:29"
+                            },
+                            "created_by_fk": 1,
+                            "created_on": {
+                                "__datetime__": "2020-08-14T04:54:29"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "COUNT(*)",
+                            "id": 8,
+                            "metric_name": "count",
+                            "metric_type": "count",
+                            "table_id": 8,
+                            "verbose_name": "COUNT(*)",
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 8, \"database_name\": \"New K8S DB\"}",
+                "schema": null,
+                "sql": null,
+                "table_name": "space_cpu2",
+                "template_params": null
+            }
+        }
+    ]
+}
